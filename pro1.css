@@ -1,0 +1,258 @@
+.top{
+    overflow: hidden;
+}
+
+section{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section.s2{
+    background-image: url("img2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+li.nav-item{
+    padding-left: 20px;
+}
+#navbar{
+    position: sticky;
+    top: 0px;
+    left: opx;
+    z-index: 100;
+    padding: 5px 5px;
+    box-shadow: 5px 5px 20px black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: green;
+    
+}
+h1.hd1{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+p.para1{
+    font-size: x-large;
+}
+section.s3{
+    min-height: 600px;
+}
+.inbox2{
+    border: 2px solid black;
+    min-height: 250px;
+    margin: 80px 20px 20px 20px;
+    text-align: center;
+    flex-direction: column;
+    
+
+}
+.inbox3{
+    border: 2px solid black;
+    min-height: 250px;
+    margin: 50px 20px 20px 20px;
+    text-align: center; 
+}
+h6.g1{
+    color: green;
+    font-size:x-large;
+    padding-top: 15px;
+    font-weight: 700;
+}
+h6.g2{
+    color:rgb(68, 152, 204);
+    font-size:x-large;
+    padding-top: 15px;
+    font-weight: 700;
+}
+h6.g3{
+    color: red;
+    font-size:x-large;
+    padding-top: 15px;
+    font-weight: 700;
+}
+h6.g4{
+    color: rgb(19, 97, 74);
+    font-size:x-large;
+    padding-top: 15px;
+    font-weight: 700;
+}
+h6.g5{
+    color: rgb(99, 97, 204);
+    font-size:x-large;
+    padding-top: 15px;
+    font-weight: 700;
+}
+h6.g6{
+    color: rgb(122, 39, 85);
+    font-size:x-large;
+    padding-top: 15px;
+    font-weight: 700;
+}
+h1.hd2{
+    color: black;
+    font-weight: 600;
+}
+.btn1{
+    background-color: green;
+    border: 0px;
+    padding: 5px;
+}
+.btn1:hover{
+    color: white;
+}
+.btn2{
+    background-color:rgb(68, 152, 204) ;
+    border: 0px;
+    padding: 5px;
+}
+.btn2:hover{
+    color: white;
+}
+.btn3{
+    background-color: red;
+    border: 0px;
+    padding: 5px;
+}
+.btn3:hover{
+    color: white;
+}
+.btn4{
+    background-color:rgb(19, 97, 74);
+    border: 0px;
+    padding: 5px;
+}
+.btn4:hover{
+    color: white;
+}
+.btn5{
+    background-color: rgb(99, 97, 204);
+    border: 0px;
+    padding: 5px;
+}
+.btn5:hover{
+    color: white;
+}
+.btn6{
+    background-color: rgb(122, 39, 85);
+    border: 0px;
+    padding: 5px;
+}
+.btn6:hover{
+    color: white;
+}
+section.s4
+{
+    background-color: rgb(24, 182, 24);
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+h1.hd3{
+    color: white;
+}
+section.s5{
+    background-image: url("img1.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+h2.hd1{
+    font-weight: 300;
+    font-size: 40px;
+    padding-top: 50px;
+}
+section.s6{
+    min-height: 400px;
+    background-color: rgb(240, 183, 38);
+    color: black;
+}
+.inbox5{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(10, 10, 10);
+}
+.inbox7{
+    min-height:250px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.inbox6{
+    min-height: 250px;
+    padding-top: 40px;
+}
+img.sr{
+    height: 180px;
+    width: 120px;
+}
+section.s7{
+    min-height: 450px;
+}
+.inbox8{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(10, 10, 10);
+}
+.inbox9{
+    border: 0px solid black;
+    min-height: 200px;
+    margin: 50px 20px 20px 20px;
+    display: flex;
+    text-align: center; 
+    align-items: center;
+    background-color:grey;
+}
+.inbox10{
+    margin: 0px 20px 20px 20px;
+    color: black;
+}
+img.img1{
+    
+    height: 60px;
+   margin-bottom: 50px;
+   margin-top: 50px;
+}
+section.s8{
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+}
+.inbox16{
+    color: gray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 576px) {
+    h1.hd1{
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-weight: 300;
+    }
+    h2.hd1{
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+  }
